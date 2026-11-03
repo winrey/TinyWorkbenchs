@@ -24,6 +24,10 @@
   <TWB_ElectricTailoringBenchMini.label>tiny electric tailor bench</TWB_ElectricTailoringBenchMini.label>
   <!-- EN: A tiny workbench with a sewing machine for rapid tailoring of clothes. -->
   <TWB_ElectricTailoringBenchMini.description>A tiny workbench with a sewing machine for rapid tailoring of clothes.</TWB_ElectricTailoringBenchMini.description>
+  <!-- EN: tiny fabrication bench -->
+  <TWB_FabricationBenchMini.label>tiny fabrication bench</TWB_FabricationBenchMini.label>
+  <!-- EN: A tiny workbench equipped with advanced tools for producing technological marvels from simpler materials. -->
+  <TWB_FabricationBenchMini.description>A tiny workbench equipped with advanced tools for producing technological marvels from simpler materials.</TWB_FabricationBenchMini.description>
   <!-- EN: tiny fueled smithy -->
   <TWB_FueledSmithyMini.label>tiny fueled smithy</TWB_FueledSmithyMini.label>
   <!-- EN: A tiny wood-fueled station for smithing non-mechanical weapons and tools. -->
@@ -36,6 +40,10 @@
   <TWB_HandTailoringBenchMini.label>tiny hand tailor bench</TWB_HandTailoringBenchMini.label>
   <!-- EN: A tiny workbench with a sewing machine for rapid tailoring of clothes. -->
   <TWB_HandTailoringBenchMini.description>A tiny workbench with a sewing machine for rapid tailoring of clothes.</TWB_HandTailoringBenchMini.description>
+  <!-- EN: tiny hi-tech research bench -->
+  <TWB_HiTechResearchBenchMini.label>tiny hi-tech research bench</TWB_HiTechResearchBenchMini.label>
+  <!-- EN: A tiny high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects. -->
+  <TWB_HiTechResearchBenchMini.description>A tiny high-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects.</TWB_HiTechResearchBenchMini.description>
   <!-- EN: tiny nutrient paste dispenser -->
   <TWB_NutrientPasteDispenser.label>tiny nutrient paste dispenser</TWB_NutrientPasteDispenser.label>
   <!-- EN: A tiny machine that synthesizes edible nutrient paste from organic feedstocks placed in adjacent hoppers. It consumes less ingredients and time than any other meal production method - but nobody likes eating nutrient paste. Accepts raw food, but not rough plant matter like hay. -->

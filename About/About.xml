@@ -12,6 +12,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -24,7 +25,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 
@@ -38,20 +39,20 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632]Vanilla Furniture Expanded - Production[/url] if loaded
 - Added tiny workbenches of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803]Vanilla Helixien Gas Expanded[/url] if loaded
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/TinyWorkbenchs][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/TinyWorkbenchs][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 [h1]Notice Of Abandonment[/h1]
 [i]This mod is no longer maintained; it won't be receiving updates or fixes.[/i]
 Know of a suitable replacement? Leave a link in the comments!
@@ -72,17 +73,17 @@ Inspired by (and ripping off) [url=https://steamcommunity.com/sharedfiles/filede
 
 These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423][img]https://img.shields.io/github/v/release/emipa606/TinyWorkbenchs?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  small,  workspaces</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423][img]https://img.shields.io/github/v/release/emipa606/TinyWorkbenchs?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | small, workspaces</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

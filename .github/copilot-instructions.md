@@ -1,51 +1,112 @@
-# Copilot Instructions for RimWorld Modding Project
+# GitHub Copilot Instructions for Tiny Workbenchs (Continued) Mod
 
 ## Mod Overview and Purpose
 
-The "Tiny Workbenches" mod for RimWorld is designed to enhance and expand the gameplay experience by introducing smaller, space-efficient versions of the standard workbenches found in the game. This mod aims to provide players with options for more compact base designs, particularly beneficial for early-game or minimalist colony setups.
+Tiny Workbenchs (Continued) is a RimWorld mod that provides smaller versions of workbenches with various functionalities. The mod aims to offer players an alternative to the standard workbenches by introducing a compact option that has a lower work speed but occupies less space. This mod is inspired by Voyager's "Small Workbenches" and includes additional features like a tiny brewery, a simple research bench, and a nutrient paste dispenser.
 
 ## Key Features and Systems
 
-- **Compact Workbenches**: The mod introduces a variety of new workbench items that occupy less space than their vanilla counterparts. These workbenches function identically to the originals but fit into smaller areas, allowing for more efficient base layouts.
-  
-- **Balanced Gameplay**: Each tiny workbench is designed to maintain balance by incorporating appropriate crafting speeds and resource costs.
-
-- **Customization Options**: Players can configure aspects of the workbenches, such as resource costs or crafting times, via mod settings in the game UI.
+- **Tiny Workbenches:** Smaller versions of existing workbenches with a 70% base work speed, longer build time, and reduced fragility.
+- **Tiny Brewery:** A compact version of the brewery that uses less space.
+- **Tiny Simple Research Bench:** A small research bench for conducting research projects.
+- **Tiny Nutrient Paste Dispenser:** A compact dispenser for nutrient paste.
+- **Support for Simple FX: Smoke:** Adds smoke effects to the tiny workbenches.
+- **Compatibility with Vanilla Furniture Expanded - Production:** Adds tiny workbenches from this mod if it is loaded.
+- **Compatibility with Vanilla Helixien Gas Expanded:** Adds tiny workbenches from this mod if it is loaded.
 
 ## Coding Patterns and Conventions
 
-- **Namespace and Organization**: Keep all classes under a distinct namespace related to the mod, such as `TinyWorkbenchesNamespace`, to prevent conflicts with other mods.
-  
-- **Class Naming**: Use clear and descriptive names for classes and methods. For example, `TinyWorkbenches.cs` should contain classes directly related to the unique functionality of the mod.
-
-- **Commenting**: Include XML documentation comments for each class and method to provide clear guidance for future maintenance or development efforts.
-
-- **Programming Practices**: Follow .NET best practices, including the use of properties instead of public fields, and implement proper exception handling to enhance the mod's robustness.
+- **Harmony Patching:** The mod uses Harmony patches to modify vanilla RimWorld behavior without altering the original game files.
+- **XML Integration:** XML files are used to define new game elements such as research projects and thing definitions.
+- **C# Logic:** C# files contain the logic for handling specific mod functionalities, including toggling recipes and drawing research bench requirements.
 
 ## XML Integration
 
-- **Defining New Workbenches**: Use XML files to define new workbench items. These should include all necessary properties such as `ThingDefs`, `BuildingDefs`, and `RecipeDefs`.
+The mod includes several XML files that define new game elements:
 
-- **Patch Existing Content**: If modifying existing vanilla objects, do this through `Defs` that extend or modify the existing definitions.
-
-- **Localization Support**: Provide translation keys in an XML format to support multiple languages, enhancing accessibility for international players.
+- **ResearchProjects.xml:** Defines new research projects.
+- **Buildings.xml:** Defines new thing definitions for the tiny workbenches.
+- **CETeam.CombatExtended.xml:** Defines patches for the Combat Extended mod.
+- **owlchemist.simplefxsmoke.xml:** Defines patches for the Simple FX: Smoke mod.
+- **VanillaExpanded.HelixienGas.xml:** Defines patches for the Vanilla Helixien Gas Expanded mod.
 
 ## Harmony Patching
 
-- **Purpose**: Use the Harmony library to patch the game's methods to introduce or alter behaviors required by the mod without directly modifying the game code.
-  
-- **Implementation**: Harmony patches should be clearly labeled and documented. For instance, patches should specify the target method, the prefix/postfix to be applied, and any context that might be necessary for understanding the modification.
-  
-- **Cautious Use**: Only patch what is necessary to ensure compatibility with future versions of RimWorld and other mods.
+Harmony is used to patch vanilla RimWorld methods to add or modify behavior:
+
+- **AmmoInjector_ToggleRecipeOnBench.cs:** Contains a postfix patch to toggle recipes on the bench.
+- **MainTabWindow_Research_DrawResearchBenchRequirements.cs:** Contains a postfix patch to draw research bench requirements.
+- **ResearchProjectDef_CanBeResearchedAt.cs:** Contains a postfix patch to determine if a research project can be researched at a specific bench.
 
 ## Suggestions for Copilot
 
-- **Auto-Complete XML Tags**: Implement suggestions to automatically complete XML tags when defining new `Defs` or `KeyBindings`.
+- **Code Completion:** Use Copilot to complete code snippets for Harmony patches and XML definitions.
+- **Debugging:** Use Copilot to generate debugging statements and log entries for troubleshooting.
+- **Optimization:** Use Copilot to suggest optimizations for performance improvements in C# code.
+- **Documentation:** Use Copilot to generate comments and documentation for C# code and XML files.
+- **Testing:** Use Copilot to generate test cases and assertions for verifying mod functionality.
 
-- **Generate Harmony Templates**: Assist in generating templates for Harmony patches, including common prefixes, suffixes, and transpiler hooks.
 
-- **Code Snippet Recommendations**: Recommend snippets for common tasks such as setting up mod settings menus, integrating localization keys, or creating new ThingDefs.
+# GitHub Copilot Instructions for Tiny Workbenchs (Continued) Mod
 
-- **Contextual Assistance**: Provide suggestions based on the context within `TinyWorkbenches.cs` to quickly develop methods that adhere to existing class conventions.
+## Mod Overview and Purpose
 
-By following these guidelines and leveraging GitHub Copilot where possible, the development and maintenance of the "Tiny Workbenches" RimWorld mod can be streamlined for efficiency and quality.
+Tiny Workbenchs (Continued) is a RimWorld mod that provides smaller versions of workbenches with various functionalities. The mod aims to offer players an alternative to the standard workbenches by introducing a compact option that has a lower work speed but occupies less space. This mod is inspired by Voyager's "Small Workbenches" and includes additional features like a tiny brewery, a simple research bench, and a nutrient paste dispenser.
+
+## Key Features and Systems
+
+- **Tiny Workbenches:** Smaller versions of existing workbenches with a 70% base work speed, longer build time, and reduced fragility.
+- **Tiny Brewery:** A compact version of the brewery that uses less space.
+- **Tiny Simple Research Bench:** A small research bench for conducting research projects.
+- **Tiny Nutrient Paste Dispenser:** A compact dispenser for nutrient paste.
+- **Support for Simple FX: Smoke:** Adds smoke effects to the tiny workbenches.
+- **Compatibility with Vanilla Furniture Expanded - Production:** Adds tiny workbenches from this mod if it is loaded.
+- **Compatibility with Vanilla Helixien Gas Expanded:** Adds tiny workbenches from this mod if it is loaded.
+
+## Coding Patterns and Conventions
+
+- **Harmony Patching:** The mod uses Harmony patches to modify vanilla RimWorld behavior without altering the original game files.
+- **XML Integration:** XML files are used to define new game elements such as research projects and thing definitions.
+- **C# Logic:** C# files contain the logic for handling specific mod functionalities, including toggling recipes and drawing research bench requirements.
+
+## XML Integration
+
+The mod includes several XML files that define new game elements:
+
+- **ResearchProjects.xml:** Defines new research projects.
+- **Buildings.xml:** Defines new thing definitions for the tiny workbenches.
+- **CETeam.CombatExtended.xml:** Defines patches for the Combat Extended mod.
+- **owlchemist.simplefxsmoke.xml:** Defines patches for the Simple FX: Smoke mod.
+- **VanillaExpanded.HelixienGas.xml:** Defines patches for the Vanilla Helixien Gas Expanded mod.
+
+## Harmony Patching
+
+Harmony is used to patch vanilla RimWorld methods to add or modify behavior:
+
+- **AmmoInjector_ToggleRecipeOnBench.cs:** Contains a postfix patch to toggle recipes on the bench.
+- **MainTabWindow_Research_DrawResearchBenchRequirements.cs:** Contains a postfix patch to draw research bench requirements.
+- **ResearchProjectDef_CanBeResearchedAt.cs:** Contains a postfix patch to determine if a research project can be researched at a specific bench.
+
+## Suggestions for Copilot
+
+- **Code Completion:** Use Copilot to complete code snippets for Harmony patches and XML definitions.
+- **Debugging:** Use Copilot to generate debugging statements and log entries for troubleshooting.
+- **Optimization:** Use Copilot to suggest optimizations for performance improvements in C# code.
+- **Documentation:** Use Copilot to generate comments and documentation for C# code and XML files.
+- **Testing:** Use Copilot to generate test cases and assertions for verifying mod functionality.
+
+## Project Solution Guidelines
+- Relevant mod XML files are included as Solution Items under the solution folder named XML, these can be read and modified from within the solution.
+- Use these in-solution XML files as the primary files for reference and modification.
+- The `.github/copilot-instructions.md` file is included in the solution under the `.github` solution folder, so it should be read/modified from within the solution instead of using paths outside the solution. Update this file once only, as it and the parent-path solution reference point to the same file in this workspace.
+- When making functional changes in this mod, ensure the documented features stay in sync with implementation; use the in-solution `.github` copy as the primary file.
+- In the solution is also a project called Assembly-CSharp, containing a read-only version of the decompiled game source, for reference and debugging purposes.
+- For any new documentation, update this copilot-instructions.md file rather than creating separate documentation files.
+
+
+## Hard rules (must follow)
+- Do NOT run commands that modify the repo (no git commit, git apply, dotnet format) unless explicitly asked.
+- Prefer minimal reads: read only the smallest code region needed (around the suspicious lines).
+- When mentioning SonarQube issues, automatically use the SonarQube MCP service to fetch and address issues instead of making inferred fixes without querying SonarQube first.
+- When mentioning the rimworld log, automatically use the Rimworld MCP service to fetch the log.
+

@@ -6,4 +6,19 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="TinyWorkbenches/TinyWorkbenches.csproj" />
+  <Folder Name="/XML/1.7/Defs/ThingsDefs/">
+    <File Path="../1.7/Defs/ThingsDefs/Buildings.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/CETeam.CombatExtended.xml" />
+    <File Path="../1.7/Patches/owlchemist.simplefxsmoke.xml" />
+    <File Path="../1.7/Patches/VanillaExpanded.HelixienGas.xml" />
+    <File Path="../1.7/Patches/VanillaExpanded.VFEProduction.xml" />
+  </Folder>
 </Solution>

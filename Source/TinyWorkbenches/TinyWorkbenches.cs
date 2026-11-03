@@ -7,7 +7,7 @@ using Verse;
 namespace TinyWorkbenches;
 
 [StaticConstructorOnStartup]
-public class TinyWorkbenches
+public static class TinyWorkbenches
 {
     public static readonly ThingDef TWB_HiTechResearchBenchMini = ThingDef.Named("TWB_HiTechResearchBenchMini");
 

@@ -1,6 +1,6 @@
 # [Tiny Workbenchs (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2387981423)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Alaestors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
@@ -15,9 +15,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1546657623
 - Added tiny workbenches of [Vanilla Furniture Expanded - Production](https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632) if loaded
 - Added tiny workbenches of [Vanilla Helixien Gas Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2877699803) if loaded
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # Notice Of Abandonment
 
@@ -40,13 +40,13 @@ Inspired by (and ripping off) [Voyager's "Small Workbenches"](https://steamcommu
 
 These textures aren't up to 1.0 quality, and I'm a lazy person who made them all single rotated textures instead of proper muli-graphics. If anyone would like to contribute their fancy art skillz to this mod, I'll credit them accordingly.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -54,4 +54,4 @@ These textures aren't up to 1.0 quality, and I'm a lazy person who made them all
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/TinyWorkbenchs?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423) | tags:  small,  workspaces
+[![Image](https://img.shields.io/github/v/release/emipa606/TinyWorkbenchs?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2387981423) | small, workspaces

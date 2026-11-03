@@ -1,5 +1,9 @@
 # Changelog for TinyWorkbenchs
 
+1.7.0 - Mod updated for 1.7 and passed autotests
+Used DeepL to update translations for German, French
+
+
 1.6.4 - Added Loading Bench for CE, updated chinese translation by RhyVis
 
 
