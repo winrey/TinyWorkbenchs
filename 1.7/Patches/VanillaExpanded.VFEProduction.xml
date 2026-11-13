@@ -181,6 +181,13 @@
             <li>Stonecutting</li>
             <li>Electricity</li>
           </researchPrerequisites>
+          <modExtensions>
+            <li Class="VEF.Buildings.RecipeInheritanceExtension">
+              <inheritRecipesFrom>
+                <li>TableStonecutter</li>
+              </inheritRecipesFrom>
+            </li>
+          </modExtensions>
         </ThingDef>
       </value>
     </match>
